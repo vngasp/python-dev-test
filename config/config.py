@@ -6,11 +6,9 @@ class BaseConfig:
     debug = True
 
     def __init__(self):
-        options = json.loads(os.environ['args']) or defaultdict(lambda: None)
         env = os.environ['env']
-        self.env = env
-
-        preset = PRODConfig
+        if env == 'prod':
+            preset = PRODConfig
 
 
 class PRODConfig(BaseConfig):
