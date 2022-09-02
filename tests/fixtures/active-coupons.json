@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2022-07-06T14:11:01.619",
+    "alliance": "vivo",
+    "sponsor": "bonuz.com",
+    "experience": "rede-de-protecao-bonus-kafka",
+    "prize": "bonusCelularVivo",
+    "value": 10.0,
+    "amount": 2
+  }, 
+  {
+    "timestamp": "2022-07-06T10:11:01.619",
+    "alliance": "tim",
+    "sponsor": "bonuz.com",
+    "experience": "rede-de-protecao-bonus-kafka",
+    "prize": "bonusCelularTim",
+    "value": 1.0,
+    "amount": 1
+  }
+]
