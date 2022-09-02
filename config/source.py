@@ -1,7 +1,5 @@
 from config.config import Config
 import pandas as pd
-import certifi
-import json
 
 
 class Source():

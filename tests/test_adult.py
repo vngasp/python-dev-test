@@ -1,6 +1,6 @@
 import pytest
 from pandas import DataFrame
-from etl.adult import AdultEtl
+from etls.adult import AdultEtl
 import datetime as dt
 from great_expectations.core.expectation_validation_result import ExpectationSuiteValidationResult
 
