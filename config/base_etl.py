@@ -26,11 +26,6 @@ class Base(ABC):
         raise NotImplementedError("method load not implemented")
 
 
-    @abstractmethod
-    def validate(self, df: DataFrame) -> ExpectationSuiteValidationResult:
-        raise NotImplementedError("method validate not implemented")
-
-
     def run_etl(self) -> DataFrame:
 
         # extract
