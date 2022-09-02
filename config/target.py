@@ -15,10 +15,6 @@ class Target():
         Save data to Sqlite
         '''        
         if len(df) > 0:
-            cnx = sqlite3.connect(':memory:')
+            cnx = sqlite3.connect('adult.db')
             df.to_sql(name=table_name, con=cnx)
-            p1 = pd.read_sql('PRAGMA table_info(adult);', cnx)
-            print(p1)
-            p2 = pd.read_sql('select * from adult;', cnx)
-            print(p2)
         return df
