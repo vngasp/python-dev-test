@@ -1,0 +1,1 @@
+*/10 * * * * * python3 -m etls etls.adult.AdultEtl --env=prod
